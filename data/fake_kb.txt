@@ -1,0 +1,99 @@
+# Glorious Healthcare Knowledge Base
+
+## 1. Company Overview
+
+Glorious Healthcare is a leading provider in the healthcare industry, known for its unwavering commitment to delivering quality and affordable medical services. Established in 2005, our mission has been to revolutionize healthcare by bridging the gap between patients and top-tier healthcare services. We strive to empower individuals with information and resources to manage their health better.
+
+## 2. Services
+
+At Glorious Healthcare, we offer a wide range of services catering to various medical needs:
+
+- **Primary Care:** Comprehensive healthcare services including preventive care, treatment for illnesses and injuries, and ongoing care for chronic conditions.
+  
+- **Specialist Referrals:** If you require specialized treatment, we can connect you with our network of highly qualified specialists.
+  
+- **Pharmacy Services:** Convenient in-house pharmacy services, providing prescribed medications immediately after your appointment.
+  
+- **Telehealth Services:** Virtual healthcare services that allow patients to consult with their healthcare providers from the comfort of their homes.
+
+## 3. Key Features
+
+Our services come with several key features designed to offer a seamless healthcare experience:
+
+- **Online Appointment Scheduling:** Patients can book, reschedule, or cancel their appointments online.
+  
+- **Electronic Health Records (EHR):** Digital record keeping for easy access to patient's medical history.
+  
+- **Mobile Application:** A feature-rich mobile app to manage appointments, view prescriptions, and access EHR.
+  
+- **24/7 Access to Healthcare:** Round-the-clock telehealth services for urgent medical consultations.
+
+## 4. FAQs
+
+**Q1:** What are the office hours for in-person visits?
+**A:** Our office hours are Monday to Friday, from 9 AM to 6 PM.
+
+**Q2:** How can I book an appointment?
+**A:** You can book an appointment through our website or mobile application.
+
+**Q3:** Can I consult a doctor after office hours?
+**A:** Yes, our telehealth services are available 24/7 for urgent medical consultations.
+
+**Q4:** How can I access my Electronic Health Records (EHR)?
+**A:** Your EHR can be accessed through our mobile application or website.
+
+**Q5:** Can I get my prescription medications from Glorious Healthcare?
+**A:** Yes, we offer in-house pharmacy services for your convenience.
+
+**Q6:** Do you accept insurance?
+**A:** Yes, we accept most major insurance providers. Please contact our support for specific details.
+
+**Q7:** Can I reschedule or cancel my appointment online?
+**A:** Yes, you can manage your appointments through our website or mobile app.
+
+**Q8:** How can I get a referral to a specialist?
+**A:** Your primary care physician can provide you with a referral based on your medical needs.
+
+**Q9:** Do you provide healthcare services for children?
+**A:** Yes, we provide comprehensive healthcare services for all age groups.
+
+**Q10:** Can I pay my bills online?
+**A:** Yes, bill payments can be made through our website or mobile app.
+
+**Q11:** How can I update my contact information?
+**A:** You can update your contact details through your account on our website or mobile app.
+
+**Q12:** How can I provide feedback about the services?
+**A:** Your feedback can be submitted through our website, mobile app, or you can email our support team.
+
+**Q13:** Do you offer preventive healthcare services?
+**A:** Yes, we offer comprehensive preventive care as part of our primary care services.
+
+**Q14:** Is my medical information secure?
+**A:** Yes, we adhere to strict confidentiality and privacy policies to ensure your information is secure.
+
+**Q15:** Can I request a specific doctor for my appointment?
+**A:** Yes, you can request a specific doctor while booking your appointment, subject to their availability.
+
+**Q16:** How can I get a copy of my medical records?
+**A:** You can request a copy of your medical records through our support team.
+
+**Q17:** How long does it take to get a referral to a specialist?
+**A:** It typically takes 1-2 business days to process a referral.
+
+**Q18:** Do I need to have insurance to use your services?
+**A:** While we accept most insurance, it is not a requirement. We also offer affordable self-pay options.
+
+**Q19:** Can I use the mobile app to consult my doctor?
+**A:** Yes, our mobile app supports telehealth consultations.
+
+**Q20:** How can I get technical support for the website or mobile app?
+**A:** Our support team is available to assist with any technical concerns. You can reach them via email or live chat.
+
+## 5. Support Information
+
+Our support team is dedicated to providing assistance and answering any queries you may have. 
+
+- **Contact Hours:** Our support team is available Monday to Friday, from 8 AM to 8 PM.
+- **Email:** For any queries, you can reach out to us at support@glorioushealthcare.com.
+- **Live Chat:** You can also chat with our support team in real-time on our website or mobile app.
