@@ -34,7 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install dependencies
         run: |
-          pip install pandas boto3 openai pytorch transformers
+          pip install pandas boto3 openai torch transformers
 
       # Runs a set of commands using the runners shell
       - name: Run translation script
