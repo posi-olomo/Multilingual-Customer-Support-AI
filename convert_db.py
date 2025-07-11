@@ -1,7 +1,7 @@
 import os
 import logging 
 import pandas as pd
-import boto3
+imporboto3
 import openai 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
@@ -24,6 +24,8 @@ try:
     df = pd.read_csv("data/aa_dataset-tickets-multi-lang-5-2-50-version.csv")
     df_eng = df[df.language == "en"]
     logging.info(f"Loaded {len(df_eng)} rows from the CSV file.")
+    # Fill NaN values in 'subject' column with empty strings
+    df_eng['subject'] = df_eng['subject'].fillna('')
 
     df_eng['combined'] = df_eng['subject'] + ' [SEP] ' + df_eng['body']
     logging.info("Combined 'subject' and 'body' into 'combined' column.")
