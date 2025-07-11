@@ -1,7 +1,7 @@
 import os
 import logging 
 import pandas as pd
-imporboto3
+import boto3
 import openai 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
