@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Translate and Upload to S3
+name: Process Batches
 
 # Controls when the workflow will run
 on:
@@ -9,8 +9,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "translate"
-  translate:
+  # This workflow contains a single job called "run-batches"
+  run-batches:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
   
@@ -37,5 +37,5 @@ jobs:
           pip install pandas boto3 openai torch transformers
 
       # Runs a set of commands using the runners shell
-      - name: Run translation script
-        run: python convert_db.py
+      - name: Run batch processor
+        run: python run_batches.py
