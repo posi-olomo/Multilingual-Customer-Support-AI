@@ -12,4 +12,4 @@ df_final = df_eng[['combined']]
 
 batch_size = 100 
 for i, chunk in enumerate(range(0, len(df), batch_size)):
-    df.iloc[chunk: chunk+batch_size].to_csv(f"data/batch{i}.csv", index = False)
+    df_final.iloc[chunk: chunk+batch_size].to_csv(f"data/batch{i}.csv", index = False)
