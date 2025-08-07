@@ -38,4 +38,24 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run batch processor
-        run: python run_batches.py
+        run: |
+          echo "=== Starting batch processor ==="
+          echo "Timestamp: $(date)"
+          echo "Working directory: $(pwd)"
+          
+          # Run with explicit error handling
+          set -e  # Exit on error
+          set -x  # Print commands as they execute
+          
+          if ! python run_batches.py; then
+            echo "❌ Script failed with exit code $?"
+            echo "=== Checking for any output files ==="
+            ls -la
+            if [ -d "translations" ]; then
+              echo "Contents of translations directory:"
+              ls -la translations/
+            fi
+            exit 1
+          else
+            echo "✅ Script completed successfully"
+          fi
