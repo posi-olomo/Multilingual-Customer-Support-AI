@@ -10,7 +10,7 @@ df_chunk = pd.DataFrame()
 
 # Create a dataframe with an equal number of tags, only if subject is not empty
 for i in df_eng.queue.unique():
-    temp = df_eng[(df_eng.queue == i) & (df_eng.subject.notnull()) & (df_eng.subject != '')].sample(n=100, random_state=42)
+    temp = df_eng[(df_eng.queue == i) & (df_eng.subject.notnull()) & (df_eng.subject != '')].sample(n=50, random_state=42)
     df_chunk = pd.concat([df_chunk,temp], ignore_index = True)
 
 df_chunk['combined'] = df_chunk['subject'] + ' [SEP] ' + df_chunk['body']
