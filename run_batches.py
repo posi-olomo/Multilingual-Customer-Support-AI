@@ -10,7 +10,7 @@ logging.basicConfig(
     format = "%(asctime)s [%(levelname)s] %(message)s",
     handlers = [logging.StreamHandler()])
 
-def check_file_in_S3(batch_file):
+def check_file_in_s3(batch_file):
     """Check if translated file already exists in S3."""
     try: 
         session = boto3.session.Session(
@@ -59,7 +59,7 @@ def get_s3_processed_summary():
             region_name = os.environ.get('AWS_REGION')
         )
         s3 = session.client('s3')
-        bucet_name = os.environ.get('S3_BUCKET_NAME')
+        bucket_name = os.environ.get('S3_BUCKET_NAME')
 
         if not bucket_name:
             return []
@@ -115,7 +115,7 @@ failed = 0
 # Loop through each batch file
 for i, batch_file in enumerate(batch_files, 1):
     batch_path = os.path.join(batch_dir, batch_file)
-    logging.info(f"Processing {i}/{len(batch_Files)}: {batch_file}")
+    logging.info(f"Processing {i}/{len(batch_files)}: {batch_file}")
 
     # Define the output file name 
     output_file = os.path.join(output_dir, f"translated_{batch_file}")
@@ -127,7 +127,7 @@ for i, batch_file in enumerate(batch_files, 1):
     
     # Fallback: Check if local output file already exists 
     if os.path.exists(output_file):
-        logging.info(f"Skipping {batch_File}, local output already exists")
+        logging.info(f"Skipping {batch_file}, local output already exists")
         skipped_local += 1
         continue
 
