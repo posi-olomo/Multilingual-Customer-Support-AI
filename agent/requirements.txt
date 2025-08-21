@@ -6,3 +6,4 @@ langdetect==1.0.9
 python-dotenv==1.1.1
 streamlit==1.48.1
 transformers==4.53.1
+sentencepiece==0.2.1
