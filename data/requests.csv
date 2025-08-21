@@ -1,11 +1,3 @@
-req_20250819_115956_339,2025-08-19T11:59:56.339123,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_120918_516,2025-08-19T12:09:18.516817,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_124001_381,2025-08-19T12:40:01.381362,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_124126_416,2025-08-19T12:41:26.416990,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_124211_673,2025-08-19T12:42:11.673319,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_124557_185,2025-08-19T12:45:57.185577,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_124804_327,2025-08-19T12:48:04.327555,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_125807_336,2025-08-19T12:58:07.336120,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_125902_342,2025-08-19T12:59:02.342799,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_130132_569,2025-08-19T13:01:32.570007,I'd like to book a table for tomorrow evening,pending,chat_agent,general
-req_20250819_130148_254,2025-08-19T13:01:48.254472,I'd like to book a table for tomorrow evening,pending,chat_agent,general
+id,timestamp,query,language,status,source,priority
+req_20250821_092753_113,2025-08-21T09:27:53.116655,I'd like to book a table for tomorrow evening,english,pending,chat_agent,booking
+req_20250821_092803_301,2025-08-21T09:28:03.301216,I need to schedule a meeting with customer service,english,pending,chat_agent,booking

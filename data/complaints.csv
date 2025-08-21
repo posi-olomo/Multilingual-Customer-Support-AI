@@ -1,18 +1,3 @@
-comp_20250819_115954_557,2025-08-19T11:59:54.557180,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_120917_990,2025-08-19T12:09:17.990390,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_120921_336,2025-08-19T12:09:21.336917,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_124000_778,2025-08-19T12:40:00.778548,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_124125_694,2025-08-19T12:41:25.694576,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_124211_364,2025-08-19T12:42:11.364691,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_124213_900,2025-08-19T12:42:13.900362,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_124556_467,2025-08-19T12:45:56.467923,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_124559_625,2025-08-19T12:45:59.625160,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_124803_803,2025-08-19T12:48:03.803646,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_124807_986,2025-08-19T12:48:07.986995,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_125806_879,2025-08-19T12:58:06.879181,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_125901_949,2025-08-19T12:59:01.949380,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_125906_420,2025-08-19T12:59:06.420995,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_130132_215,2025-08-19T13:01:32.215302,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_130135_540,2025-08-19T13:01:35.540473,This service is terrible! I want a refund urgently!,open,chat_agent,high
-comp_20250819_130147_617,2025-08-19T13:01:47.617766,My order arrived late and the package was damaged!,open,chat_agent,high
-comp_20250819_130151_979,2025-08-19T13:01:51.979510,This service is terrible! I want a refund urgently!,open,chat_agent,high
+id,timestamp,query,language,status,source,priority
+comp_20250821_092751_172,2025-08-21T09:27:51.172893,My order arrived late and the package was damaged!,english,open,chat_agent,high
+comp_20250821_092758_406,2025-08-21T09:27:58.406849,This service is terrible! I want a refund urgently!,english,open,chat_agent,high
