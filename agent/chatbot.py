@@ -6,9 +6,9 @@ from datetime import datetime
 
 # Import your multilingual agent classes
 try:
-    from multilingual_agent import CustomerSupportAgent  # Assuming you saved the previous code as customer_support_agent.py
+    from multilingual_agent import CustomerSupportAgent
 except ImportError:
-    st.error("Please ensure the customer_support_agent.py file is in the same directory as this script.")
+    st.error("Please ensure the multilingual_agent.py file is in the same directory as this script.")
     st.stop()
 
 # Configure logging
