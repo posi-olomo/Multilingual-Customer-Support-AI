@@ -24,6 +24,15 @@ load_dotenv()
 if not os.environ.get("OPENAI_API_KEY"):
     os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter API key for OpenAI: ")
 
+GREETINGS= ["hello", "hi", "hey", "good morning", "good afternoon",
+             "sannu", "barka da safiya", "barka da yamma",  # Hausa
+             "ndewo", "kedu", "ụtụtụ ọma", "ezi mgbede",  # Igbo
+             "bawo ni", "eku ojumo", "eku asan", "ek'aro", "ek'asan", "ek'ale"]  # Yoruba
+REQUEST_INTRO = ["i would like to make a request", "i want to request", "i want to make a request",
+                 "ina so in yi buƙata", "zan so in yi bukata",  # Hausa
+                 "achọrọ m ịrịọ arịrịọ", "achọrọ m ime arịrịọ",  # Igbo
+                 "Mo fẹ lati ṣe ibeere", "Mo fẹ lati beere"]  # Yoruba
+
 class TranslationService:
     """Handles multilingual translation using M2M100 model"""
     
@@ -190,7 +199,8 @@ class KnowledgeBase:
         except Exception as e:
             logger.error(f"Failed to load knowledge base: {e}")
             self.db = None
-    
+
+
     def search(self, query: str, k: int = 3) -> str:
         """Search knowledge base and return context"""
         if not self.db:
@@ -261,6 +271,17 @@ class CustomerSupportAgent:
             Answer:"""
         )
     
+    def handle_special_cases(self, query: str, language: str) -> Optional[str]:
+        """Checks and handles simple grreetings or request starters."""
+        q = query.lower()
+        if any(greet in q for greet in GREETINGS):
+            response = "Hello! How can I assist you today?"
+            return self.translator.from_english(response, language)
+        if any(req in q for req in REQUEST_INTRO):
+            response = "Sure, please provide the details of your request."
+            return self.translator.from_english(response, language)
+        return None
+
     def _classify_message(self, query: str) -> str:
         """Classify customer message into complaint, request, or question"""
         try:
@@ -360,6 +381,11 @@ class CustomerSupportAgent:
         language = self.translator.detect_language_name(query)
         logger.info(f"Processing message in {language}")
         
+        # Check for special cases first
+        special_response = self.handle_special_cases(query, language)
+        if special_response:
+            return special_response
+
         # Classify message
         message_type = self._classify_message(query)
         logger.info(f"Message classified as: {message_type}")

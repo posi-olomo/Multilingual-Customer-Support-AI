@@ -146,8 +146,11 @@ with st.sidebar:
 
 # Main content area
 st.markdown('<div class="main-header">', unsafe_allow_html=True)
-st.title("🌍 Multilingual Customer Support")
-st.caption("🤖 AI-powered support in English, Yoruba, Igbo, and Hausa")
+st.title("🏥Welcome to Glorious Healthcare")
+st.caption("Your trusted partner for quality healthcare in Oyo State.")
+# st.caption("AI-powered support in English, Yoruba, Igbo, and Hausa")
+# st.title("🌍 Multilingual Customer Support")
+# st.caption("🤖 AI-powered support in English, Yoruba, Igbo, and Hausa")
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Initialize session state
