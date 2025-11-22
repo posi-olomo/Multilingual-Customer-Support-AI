@@ -7,3 +7,4 @@ python-dotenv==1.1.1
 streamlit==1.48.1
 transformers==4.53.1
 sentencepiece==0.2.1
+padie-extended==0.0.8
