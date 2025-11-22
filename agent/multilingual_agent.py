@@ -1,5 +1,6 @@
 from langchain.prompts import PromptTemplate 
-from langdetect import detect, DetectorFactory
+from padie-extended import LanguageDetector
+# from langdetect import detect, DetectorFactory
 from transformers import M2M100ForConditionalGeneration, M2M100Tokenizer
 from langchain.agents import Tool 
 from langchain_openai import ChatOpenAI
@@ -50,8 +51,13 @@ class TranslationService:
         """Detect language and return standardized name"""
         try:
             # Set seed for consistent results
-            DetectorFactory.seed = 0
-            code = detect(text)
+            # DetectorFactory.seed = 0
+            # code = detect(text)
+
+            # Initialize the detector
+            detector = LanguageDetector()
+
+            code = detector.predict(text)
             
             language_mapping = {
                 "en": "english",
